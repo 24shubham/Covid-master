@@ -1,0 +1,16 @@
+.Footer{
+    background-color: rgb(62, 84, 210);
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.Links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.Links >div>a{
+    text-decoration: none;
+    color: white;
+}

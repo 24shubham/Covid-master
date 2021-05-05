@@ -1,0 +1,42 @@
+.Newscard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    width: 400px;
+    background-color: rgb(62, 84, 210);
+    color: white;
+    margin: 1%;
+    padding-bottom: 2%;
+    border: 5px solid rgb(255, 255, 255,0.7);
+    
+}
+.Image{
+   height: 100%;
+   width: 100%;
+}
+.Imagebg{
+    height: 68%;
+    width: 100%;
+    background-image: url('../../../Assets/default.png');
+}
+.Title{
+    padding: 0 1%;
+}
+.Description{
+    margin-top: 0;
+    padding: 0 1%;
+}
+.Button{
+    border: none;
+    background-color:rgba(11, 238, 238, 0.548);
+    color:white;
+    height: 135%;
+    width: 125%;   
+}
+.Button:hover{
+    background-color: black;
+    color:rgba(11, 238, 238, 1);
+    cursor: pointer;
+}

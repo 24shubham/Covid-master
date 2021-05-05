@@ -1,0 +1,12 @@
+.Guideline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 16.6%;
+}
+.Message{
+    font-size: 1.7rem;
+    font-weight:bolder;
+    padding: 2%;
+}

@@ -1,0 +1,16 @@
+.Latestnews{
+    background-color:rgb(87, 152, 236);
+    text-align: center;
+    width: 100vw;
+    padding: 2%;
+}
+.Newscards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+.Heading{
+    padding:1% 0;
+    margin-top: 0;
+}

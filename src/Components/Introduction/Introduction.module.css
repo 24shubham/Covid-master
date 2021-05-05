@@ -1,0 +1,26 @@
+.Introduction{
+    background-color: #5268E7;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.Body{
+    display: flex;
+    height: 70%;
+}
+.Text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0.35;
+    padding-left: 2%;
+}
+.Icon{
+    height: 85%;
+    width: 90%;
+    flex: 0.65;
+}
+.Heading{
+    font-size: 5rem;
+    margin:0.8px;
+}
