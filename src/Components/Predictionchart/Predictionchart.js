@@ -9,7 +9,7 @@ const Predictionchart = ({ predict }) => {
         
         labels.push(el.Date_YMD)
         
-        return (parseInt(el.Delta))
+        return (parseInt(el.case_load_rate))
     }) 
     const data = {
         labels: labels,
@@ -50,7 +50,7 @@ const Predictionchart = ({ predict }) => {
             y: {
                 title: {
                     display: true,
-                    text: 'Case Load',
+                    text: 'Case Load Rate',
                     color: 'white',
                     font:{
                         size:20,
@@ -62,7 +62,7 @@ const Predictionchart = ({ predict }) => {
         plugins: {
             title:{
                 display:true,
-                text:'Case Load V/S Time',
+                text:'Case Load Rate V/S Time',
                 font:{
                     size:25,
                     weight:'bold'
