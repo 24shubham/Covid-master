@@ -15,8 +15,8 @@ const Footer = () => {
             <div className={styles.Links}>
                 <h4>Let's Socialise</h4>
                 <div>
-                    <a href='https://www.instagram.com/a.y.a.n.shrivastava/' target="_blank" rel="noopener noreferrer"><InstagramIcon style={{margin:'0 5%'}}/></a>
-                    <a href='https://www.linkedin.com/in/ayan-shrivastava-248501194/' target="_blank" rel="noopener noreferrer" ><LinkedInIcon/></a>
+                    <a href='https://www.instagram.com/' target="_blank" rel="noopener noreferrer"><InstagramIcon style={{margin:'0 5%'}}/></a>
+                    <a href='https://www.linkedin.com/' target="_blank" rel="noopener noreferrer" ><LinkedInIcon/></a>
                 </div>
             </div>
         </div>

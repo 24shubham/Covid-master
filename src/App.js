@@ -7,7 +7,7 @@ import Casetimechart from './Components/Casetimechart/Casetimechart';
 import Statewisechart from './Components/Statewisechart/Statewisechart';
 import Vaccinationchart from './Components/Vaccinationchart/Vaccinationchart';
 import Predictionchart from './Components/Predictionchart/Predictionchart';
-import Latestnews from './Components/Latestnews/Latestnews';
+//import Latestnews from './Components/Latestnews/Latestnews';
 import Footer from './Components/Footer/Footer';
 
 function App() {

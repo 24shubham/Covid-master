@@ -99,7 +99,7 @@ const Casetimechart = ({ casetime }) => {
 
 
     return (
-        <div style={{ backgroundColor: '#3E54D2', height: '105vh', width: '100vw', textAlign: 'center' }}>
+        <div style={{ backgroundColor: '#ffb84d', height: '105vh', width: '100vw', textAlign: 'center' }}>
             <h1 style={{ marginTop: 0,paddingTop: '2%' }}>Visualised Data of New Cases , Recovery And Deaths (India)</h1>
             <h3 style={{ marginTop: 0 }}>(Click On Legends To Show/Hide Individual Graph )</h3>
             <Line data={data} options={options} height={99} width={250} />

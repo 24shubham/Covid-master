@@ -112,7 +112,7 @@ const Vaccinationchart = ({ tested_data }) => {
     }
 
     return (
-        <div style={{ backgroundColor: '#5268E7',textAlign:'center',width:'100vw'}}>
+        <div style={{ backgroundColor: '#5cd6d6',textAlign:'center',width:'100vw'}}>
             <h1 style={{ marginTop: 0,paddingTop: '2%' }}>Comparision Between Vaccination And Tests (India)</h1>
             <h3 style={{ marginTop: 0 }}>(Click On Legends To Show/Hide Individual Graph )</h3>
             <Line data={data} options={options} />
